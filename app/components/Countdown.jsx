@@ -31,8 +31,6 @@ var Countdown = React.createClass({
             this.setState({
                 count: newCount >= 0 ? newCount : 0
             });
-
-            
         }, 1000);
     },
     render: function(){
